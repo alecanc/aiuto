@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="sfondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestioneprofilo.SchermataVisualizzaProfilo">
+   <children>
+      <Label fx:id="nomeLabel" layoutX="132.0" layoutY="39.0" text="nome" />
+      <Label fx:id="emailLabel" layoutX="132.0" layoutY="69.0" text="email" />
+      <Label fx:id="dataNascitaLabel" layoutX="132.0" layoutY="99.0" text="Data di nascita" />
+      <Label fx:id="cfLabel" layoutX="132.0" layoutY="129.0" text="Codice fiscale" />
+      <ImageView fx:id="foto" fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
